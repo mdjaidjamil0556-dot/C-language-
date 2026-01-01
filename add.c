@@ -1,8 +1,17 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
-int a=10;
-int b=8;
+int main() {
+    int a, b, sum;
 
-sum=a+b;
-print("Sum",sum)
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    sum = a + b;
+
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
